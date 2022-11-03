@@ -8,7 +8,7 @@
 
 const express = require("express");
 const app = express();
-const PORT = 8090 || process.env.PORT;  
+const PORT = process.env.PORT || 8080; // default port to listen  
 const fs = require("fs").promises;
 const path = require("path");
 
